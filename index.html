@@ -14,7 +14,12 @@
     <header class="header">
         <div class="container navbar">
             <a href="index.html" class="logo">Padmapriya.Dev</a>
-            <nav class="nav-links">
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-links" id="nav-links">
                 <a href="index.html" class="active">Home</a>
                 <a href="about.html">About</a>
                 <a href="skills.html">Skills</a>
@@ -35,13 +40,21 @@
                 </div>
             </div>
         </section>
+
+    <script>
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const navLinks = document.getElementById('nav-links');
+
+    menuBtn.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+    </script>
     </main>
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Alex Johnson. All Rights Reserved.</p>
+            <p>&copy; 2025 Padmapriya K. All Rights Reserved.</p>
         </div>
     </footer>
 </body>
 </html>
-

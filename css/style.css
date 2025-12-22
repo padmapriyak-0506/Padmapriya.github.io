@@ -489,12 +489,23 @@ section {
         display: flex; /* Show the button on mobile */
     }
 
+    .navbar {
+    display: flex;
+    justify-content: space-between; /* Pushes logo left, menu right */
+    align-items: center;
+    position: relative; /* Essential for dropdown positioning */
+  }
+
     .nav-links {
-        display: none; /* Hide the links by default on mobile */
-        width: 100%;
-        flex-direction: column;
-        text-align: center;
-        padding: 20px 0;
+    display: none; /* Hides the links initially */
+    flex-direction: column;
+    position: absolute;
+    top: 100%; /* Sits exactly below the header */
+    left: 0;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
     }
 
     /* This class will be added by JavaScript when you click the button */

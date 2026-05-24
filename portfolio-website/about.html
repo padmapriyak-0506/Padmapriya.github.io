@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Me - Personal Portfolio">
+    <title>About - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <header class="header">
+        <div class="container navbar">
+            <a href="index.html" class="logo">Portfolio.io</a>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-links" id="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="profile-img-container">
+                    <!-- Placeholder for profile image -->
+                     <img src="assets/images/WhatsApp Image 2026-01-20 at 9.20.04 PM.jpeg" alt="Padmapriya K" class="profile-img">
+
+                     
+                     <span class="profile-img-placeholder">IMG</span>
+                </div>
+                <div class="about-content">
+                    
+                    <p>I’m a Computer Science Engineering student passionate about building user-friendly web applications and improving my problem-solving skills. I work with HTML, CSS, and JavaScript, and I’m currently learning full-stack web development. </p>
+                    <br>
+                    <p>I enjoy turning ideas into real projects and continuously upgrading my skills to prepare for a career in software development.</p>
+
+                    <h3 style="margin-top: 2rem;">Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023 - 2027</div>
+                            <h4>Bachelor of Computer Science Engineering</h4>
+                            <p>Manakula Vinayagar Institute of Technology</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script>
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const navLinks = document.getElementById('nav-links');
+
+    menuBtn.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+    </script>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Padmapriya K. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

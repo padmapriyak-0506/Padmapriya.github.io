@@ -13,13 +13,18 @@
 <body>
     <header class="header">
         <div class="container navbar">
-            <a href="index.html" class="logo">Alex.Dev</a>
-            <nav class="nav-links">
-                <a href="index.html">Home</a>
+            <a href="index.html" class="logo">Portfolio.io</a>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-links" id="nav-links">
+                <a href="index.html" class="active">Home</a>
                 <a href="about.html">About</a>
                 <a href="skills.html">Skills</a>
                 <a href="projects.html">Projects</a>
-                <a href="contact.html" class="active">Contact</a>
+                <a href="contact.html">Contact</a>
             </nav>
         </div>
     </header>
@@ -35,23 +40,23 @@
 
                     <div class="contact-info-item">
                         <div style="font-weight: bold; min-width: 80px;">Email:</div>
-                        <div>alex.johnson@example.com</div>
+                        <div>padmapriyak0506@gmail.com</div>
                     </div>
                     <div class="contact-info-item">
                         <div style="font-weight: bold; min-width: 80px;">Phone:</div>
-                        <div>(555) 123-4567</div>
+                        <div>+91 9080613557</div>
                     </div>
                     <div class="contact-info-item">
                         <div style="font-weight: bold; min-width: 80px;">Location:</div>
-                        <div>New York City, USA</div>
+                        <div>Puducherry, India</div>
                     </div>
 
                     <div style="margin-top: 2rem;">
                         <h3>Social Profiles</h3>
                         <div style="display: flex; gap: 1rem; margin-top: 1rem;">
-                            <a href="#" style="color: var(--primary-color);">LinkedIn</a>
-                            <a href="#" style="color: var(--primary-color);">GitHub</a>
-                            <a href="#" style="color: var(--primary-color);">Twitter</a>
+                            <a href="https://www.linkedin.com/in/padmapriyakartigayen/" style="color: var(--primary-color);">LinkedIn</a>
+                            <a href="https://www.hackerrank.com/profile/padmapriyak0506" style="color: var(--primary-color);">HackerRank</a>
+                            
                         </div>
                     </div>
                 </div>
@@ -84,14 +89,21 @@
                 </div>
             </div>
         </section>
+        <script>
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const navLinks = document.getElementById('nav-links');
+
+    menuBtn.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+    </script>
     </main>
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Padmapriya K. All Rights Reserved.</p>
+            <p>&copy; 2025 Padmapriya K All Rights Reserved.</p>
         </div>
     </footer>
 </body>
-
 
 </html>

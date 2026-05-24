@@ -6,16 +6,16 @@
 
 :root {
   /* Color Palette */
-  --primary-color: #2563eb;       /* Blue 600 */
-  --primary-hover: #1d4ed8;       /* Blue 700 */
-  --secondary-color: #4b5563;     /* Gray 600 */
-  --text-main: #1f2937;           /* Gray 900 */
-  --text-light: #6b7280;          /* Gray 500 */
-  --bg-body: #f9fafb;             /* Gray 50 */
-  --bg-card: #ffffff;             /* White */
-  --bg-footer: #111827;           /* Gray 900 */
-  --text-footer: #d1d5db;         /* Gray 300 */
-  --accent: #3b82f6;              /* Blue 500 */
+ --primary-color: #ec4899;      /* Better pink */
+--primary-hover: #db2777;      /* Darker pink */
+--secondary-color: #6b7280;    
+--text-main: #1f2937;          
+--text-light: #9ca3af;         
+--bg-body: #fff1f7;            /* Soft pink background */
+--bg-card: #ffffff;            
+--bg-footer: #1f2937;          
+--text-footer: #e5e7eb;        
+--accent: #8b5cf6;             /* Purple accent */              /* Blue 500 */
 
   /* Spacing */
   --spacing-xs: 0.5rem;
@@ -256,26 +256,20 @@ section {
 }
 
 .profile-img-container {
-  background-color: #e5e7eb;
-  width: 100%;
-  aspect-ratio: 1/1; /* Square */
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-  color: #9ca3af;
-  overflow: hidden;
+    width: 190px;            /* Define a specific size */
+    height: 190px;
+    border-radius: 75%;
+    border: 3px solid #fff;  /* Clean white border */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;        /* Keeps everything a circle */
+    background-color: #f3f4f6;
 }
 
-.profile-img-placeholder {
-  width: 100%;
-  height: 100%;
-  background-color: #d1d5db;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #6b7280;
+.profile-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;       /* Fills the circle */
+    display: block;
 }
 
 .about-content h3 {

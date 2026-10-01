@@ -1,130 +1,436 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact Me - Portfolio">
-    <title>Contact - Portfolio</title>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Contact Padmapriya K for software development, web development, internship, and collaboration opportunities.">
+
+    <meta name="author" content="Padmapriya K">
+
+    <title>Contact | Padmapriya K</title>
+
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <link rel="manifest" href="manifest.json">
+
+    <meta name="theme-color" content="#0f172a">
+
 </head>
 
+
 <body>
+
+
+    <!-- ================= HEADER ================= -->
+
     <header class="header">
+
         <div class="container navbar">
-            <a href="index.html" class="logo">Portfolio.io</a>
-            <button class="mobile-menu-btn" id="mobile-menu-btn">
+
+            <a href="index.html" class="logo">
+                Padmapriya<span>.</span>
+            </a>
+
+
+            <button
+                class="mobile-menu-btn"
+                id="mobile-menu-btn"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+
                 <span></span>
                 <span></span>
                 <span></span>
+
             </button>
+
+
             <nav class="nav-links" id="nav-links">
-                <a href="index.html" class="active">Home</a>
-                <a href="about.html">About</a>
-                <a href="skills.html">Skills</a>
-                <a href="projects.html">Projects</a>
-                <a href="contact.html">Contact</a>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="skills.html">
+                    Skills
+                </a>
+
+                <a href="projects.html">
+                    Projects
+                </a>
+
+                <a href="contact.html" class="active">
+                    Contact
+                </a>
+
             </nav>
+
         </div>
+
     </header>
 
-    <main class="main-content">
-        <section class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-container">
-                <div class="contact-info">
-                    <h3>Contact Information</h3>
-                    <p style="margin-bottom: 2rem; color: var(--text-light);">Feel free to reach out to me for
-                        collaboration or any questions.</p>
 
-                    <div class="contact-info-item">
-                        <div style="font-weight: bold; min-width: 80px;">Email:</div>
-                        <div>padmapriyak0506@gmail.com</div>
-                    </div>
-                    <div class="contact-info-item">
-                        <div style="font-weight: bold; min-width: 80px;">Phone:</div>
-                        <div>+91 9080613557</div>
-                    </div>
-                    <div class="contact-info-item">
-                        <div style="font-weight: bold; min-width: 80px;">Location:</div>
-                        <div>Puducherry, India</div>
-                    </div>
+    <!-- ================= MAIN ================= -->
 
-                    <div style="margin-top: 2rem;">
-                        <h3>Social Profiles</h3>
+    <main>
 
-                        <div style="display: flex; gap: 1.5rem; margin-top: 1rem; align-items: center;">
 
-                            <!-- LinkedIn -->
-                            <a href="https://www.linkedin.com/in/padmapriyakartigayen/"
-                                target="_blank"
-                                style="color: var(--primary-color); font-size: 2rem; transition: 0.3s;">
-                                <i class="fa-brands fa-linkedin"></i>
-                            </a>
+        <!-- ================= PAGE INTRO ================= -->
 
-                            <!-- GitHub -->
-                            <a href="https://github.com/padmapriyak-0506"
-                                target="_blank"
-                                style="color: var(--primary-color); font-size: 2rem; transition: 0.3s;">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
+        <section class="page-hero">
 
-                             <!-- LeetCode -->
-                            <a href="https://leetcode.com/u/Padmapriya__/"
-                                target="_blank"
-                                style="color: var(--primary-color); font-size: 2rem; transition: 0.3s;">
-                                <i class="fa-solid fa-code"></i>
-                            </a>
+            <div class="container">
 
-                        </div>
-                    </div>
-                </div>
+                <p class="section-label">
+                    Contact
+                </p>
 
-                <div class="contact-form-section">
-                    <h3>Send Me a Message</h3>
-                    <form class="contact-form" action="#" method="POST">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" class="form-input" placeholder="Your Name"
-                                required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" class="form-input" placeholder="Your Email"
-                                required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" class="form-input" placeholder="Subject"
-                                required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" class="form-textarea" placeholder="Your Message"
-                                required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary" style="margin-top: 0.5rem;">Send Message</button>
-                    </form>
-                </div>
+                <h1>
+                    Let's connect
+                </h1>
+
+                <p>
+                    Whether you have an internship opportunity, a project
+                    idea, or simply want to connect, feel free to reach out.
+                </p>
+
             </div>
-        </section>
-        <script>
-    const menuBtn = document.getElementById('mobile-menu-btn');
-    const navLinks = document.getElementById('nav-links');
 
-    menuBtn.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
-    });
-    </script>
+        </section>
+
+
+        <!-- ================= CONTACT SECTION ================= -->
+
+        <section class="contact-section">
+
+            <div class="container">
+
+                <div class="contact-grid">
+
+
+                    <!-- CONTACT INFORMATION -->
+
+                    <div class="contact-info">
+
+                        <p class="section-label">
+                            Get In Touch
+                        </p>
+
+                        <h2>
+                            Have an opportunity or idea?
+                        </h2>
+
+                        <p class="contact-description">
+                            I'm currently interested in software development,
+                            web development, internships, and opportunities
+                            where I can learn while contributing to real
+                            projects.
+                        </p>
+
+
+                        <!-- EMAIL -->
+
+                        <div class="contact-item">
+
+                            <div class="contact-icon">
+                                @
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    Email
+                                </span>
+
+                                <a href="mailto:padmapriyak0506@gmail.com">
+                                    padmapriyak0506@gmail.com
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- PHONE -->
+
+                        <div class="contact-item">
+
+                            <div class="contact-icon">
+                                #
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    Phone
+                                </span>
+
+                                <a href="tel:+919080613557">
+                                    +91 9080613557
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- LOCATION -->
+
+                        <div class="contact-item">
+
+                            <div class="contact-icon">
+                                ●
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    Location
+                                </span>
+
+                                <p>
+                                    Puducherry, India
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- SOCIAL LINKS -->
+
+                        <div class="social-section">
+
+                            <h3>
+                                Find me online
+                            </h3>
+
+
+                            <div class="social-links">
+
+                                <a
+                                    href="https://www.linkedin.com/in/padmapriyakartigayen/"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+
+                                    <span class="social-name">
+                                        LinkedIn
+                                    </span>
+
+                                    <span class="social-arrow">
+                                        ↗
+                                    </span>
+
+                                </a>
+
+
+                                <a
+                                    href="https://github.com/padmapriyak-0506"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+
+                                    <span class="social-name">
+                                        GitHub
+                                    </span>
+
+                                    <span class="social-arrow">
+                                        ↗
+                                    </span>
+
+                                </a>
+
+
+                                <a
+                                    href="https://leetcode.com/u/Padmapriya__/"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+
+                                    <span class="social-name">
+                                        LeetCode
+                                    </span>
+
+                                    <span class="social-arrow">
+                                        ↗
+                                    </span>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CONTACT FORM -->
+
+                    <div class="contact-form-card">
+
+                        <div class="form-header">
+
+                            <p class="section-label">
+                                Message
+                            </p>
+
+                            <h2>
+                                Send me a message
+                            </h2>
+
+                            <p>
+                                Fill in the form below and I'll get back
+                                to you as soon as possible.
+                            </p>
+
+                        </div>
+
+
+                        <form
+                            class="contact-form"
+                            id="contact-form">
+
+
+                            <div class="form-row">
+
+                                <div class="form-group">
+
+                                    <label for="name">
+                                        Name
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        name="name"
+                                        placeholder="Your name"
+                                        autocomplete="name"
+                                        required>
+
+                                </div>
+
+
+                                <div class="form-group">
+
+                                    <label for="email">
+                                        Email
+                                    </label>
+
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        placeholder="you@example.com"
+                                        autocomplete="email"
+                                        required>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="subject">
+                                    Subject
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="subject"
+                                    name="subject"
+                                    placeholder="What would you like to discuss?"
+                                    required>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="message">
+                                    Message
+                                </label>
+
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="6"
+                                    placeholder="Write your message here..."
+                                    required></textarea>
+
+                            </div>
+
+
+                            <button
+                                type="submit"
+                                class="btn btn-primary">
+
+                                Send Message →
+
+                            </button>
+
+
+                            <p
+                                class="form-note"
+                                id="form-note">
+
+                            </p>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
 
+
+    <!-- ================= FOOTER ================= -->
+
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Padmapriya K. All Rights Reserved.</p>
+
+        <div class="container footer-content">
+
+            <p>
+                © 2026 Padmapriya K. All Rights Reserved.
+            </p>
+
+            <div class="footer-links">
+
+                <a href="projects.html">
+                    Projects
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </div>
+
         </div>
+
     </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="js/script.js"></script>
+
 </body>
 
 </html>
+```

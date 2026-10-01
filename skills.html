@@ -1,138 +1,309 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Skills - Personal Portfolio">
-    <title>Skills - Portfolio</title>
+
+    <meta name="description"
+        content="Technical skills of Padmapriya K - Java, JavaScript, web development, databases, Git and core computer science.">
+
+    <title>Skills | Padmapriya K</title>
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
+
+    <!-- Header -->
     <header class="header">
         <div class="container navbar">
-            <a href="index.html" class="logo">Portfolio.io</a>
-            <button class="mobile-menu-btn" id="mobile-menu-btn">
+
+            <a href="index.html" class="logo">Padmapriya<span>.</span></a>
+
+            <button class="mobile-menu-btn"
+                id="mobile-menu-btn"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+                aria-controls="nav-links">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
+
             <nav class="nav-links" id="nav-links">
-                <a href="index.html" class="active">Home</a>
+                <a href="index.html">Home</a>
                 <a href="about.html">About</a>
-                <a href="skills.html">Skills</a>
+                <a href="skills.html" class="active">Skills</a>
                 <a href="projects.html">Projects</a>
                 <a href="contact.html">Contact</a>
             </nav>
+
         </div>
     </header>
 
-    <main class="main-content">
-        <section class="container">
-            <h2 class="section-title">My Skills</h2>
-            <div class="skills-container">
 
-                <div class="skill-category">
-                    <h3>Technical Skills</h3>
+    <main>
 
-                    <div class="skill-bar">
-                        <div class="skill-info">
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <div class="container">
+
+                <span class="section-label">WHAT I WORK WITH</span>
+
+                <h1>
+                    Skills &amp;
+                    <span class="gradient-text">Technologies</span>
+                </h1>
+
+                <p>
+                    A practical set of programming, web development, database
+                    and software development skills that I am continuously
+                    building through projects and problem solving.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- Skills -->
+        <section class="skills-section">
+            <div class="container">
+
+                <div class="skills-grid">
+
+                    <!-- Programming -->
+                    <article class="skill-card">
+
+                        <div class="skill-card-header">
+                            <div class="skill-icon">&lt;/&gt;</div>
+
+                            <div>
+                                <span class="skill-number">01</span>
+                                <h2>Programming</h2>
+                            </div>
+                        </div>
+
+                        <p class="skill-description">
+                            Languages I use for problem solving and technical practice.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>Java</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Web Development -->
+                    <article class="skill-card">
+
+                        <div class="skill-card-header">
+                            <div class="skill-icon">&lt;/&gt;</div>
+
+                            <div>
+                                <span class="skill-number">02</span>
+                                <h2>Web Development</h2>
+                            </div>
+                        </div>
+
+                        <p class="skill-description">
+                            Building responsive websites with clean
+                            structure, styling and interactive features.
+                        </p>
+
+                        <div class="skill-tags">
                             <span>HTML5</span>
-                            <span>95%</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
                         </div>
-                        <div class="progress-bg">
-                            <div class="progress-fill" style="width: 95%;"></div>
-                        </div>
-                    </div>
 
-                    <div class="skill-bar">
-                        <div class="skill-info">
-                            <span>CSS3 (Flexbox & Grid)</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="progress-bg">
-                            <div class="progress-fill" style="width: 90%;"></div>
-                        </div>
-                    </div>
+                    </article>
 
-                    <div class="skill-bar">
-                        <div class="skill-info">
-                            <span>Responsive Design</span>
-                            <span>85%</span>
-                        </div>
-                        <div class="progress-bg">
-                            <div class="progress-fill" style="width: 85%;"></div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="skill-category">
-                    <h3>Tools</h3>
+                    <!-- Database -->
+                    <article class="skill-card">
 
-                    <div class="skill-bar">
-                        <div class="skill-info">
-                            <span>Git & GitHub</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="progress-bg">
-                            <div class="progress-fill" style="width: 80%;"></div>
-                        </div>
-                    </div>
+                        <div class="skill-card-header">
+                            <div class="skill-icon">DB</div>
 
-                    <div class="skill-bar">
-                        <div class="skill-info">
+                            <div>
+                                <span class="skill-number">03</span>
+                                <h2>Database</h2>
+                            </div>
+                        </div>
+
+                        <p class="skill-description">
+                            Working with relational databases and SQL for
+                            storing, querying and managing application data.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>MySQL</span>
+                            <span>DBMS</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Development Tools -->
+                    <article class="skill-card">
+
+                        <div class="skill-card-header">
+                            <div class="skill-icon">Git</div>
+
+                            <div>
+                                <span class="skill-number">04</span>
+                                <h2>Development Tools</h2>
+                            </div>
+                        </div>
+
+                        <p class="skill-description">
+                            Tools I use to write, manage, test and maintain
+                            my projects.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>Git</span>
+                            <span>GitHub</span>
                             <span>VS Code</span>
-                            <span>90%</span>
+                            <span>IntelliJ IDEA</span>
                         </div>
-                        <div class="progress-bg">
-                            <div class="progress-fill" style="width: 90%;"></div>
+
+                    </article>
+
+
+                    <!-- Core CS -->
+                    <article class="skill-card">
+
+                        <div class="skill-card-header">
+                            <div class="skill-icon">CS</div>
+
+                            <div>
+                                <span class="skill-number">05</span>
+                                <h2>Core CS</h2>
+                            </div>
                         </div>
-                    </div>
+
+                        <p class="skill-description">
+                            Fundamental computer science concepts that
+                            support my programming and interview preparation.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>OOPS</span>
+                            <span>DBMS</span>
+                            <span>Computer Networks</span>
+                            <span>Data Structures</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Currently Learning -->
+                    <article class="skill-card learning-card">
+
+                        <div class="skill-card-header">
+                            <div class="skill-icon">+</div>
+
+                            <div>
+                                <span class="skill-number">06</span>
+                                <h2>Currently Learning</h2>
+                            </div>
+                        </div>
+
+                        <p class="skill-description">
+                            Technologies and development practices I am
+                            currently strengthening through hands-on work.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>Java Full Stack</span>
+                        </div>
+
+                    </article>
+
                 </div>
 
-                <div class="skill-category">
-                    <h3>Soft Skills</h3>
 
-                    <div class="skill-bar">
-                        <div class="skill-info">
-                            <span>Problem Solving</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="progress-bg">
-                            <div class="progress-fill" style="width: 90%;"></div>
-                        </div>
+                <!-- Learning Approach -->
+                <div class="skills-bottom">
+
+                    <div class="skills-bottom-content">
+
+                        <span class="section-label">MY APPROACH</span>
+
+                        <h2>
+                            Learn it.
+                            <span class="gradient-text">Build it.</span>
+                            Understand it.
+                        </h2>
+
+                        <p>
+                            I focus on learning technologies by actually
+                            building with them. My goal is not just to
+                            collect tools, but to understand how they work
+                            together to solve practical problems.
+                        </p>
+
                     </div>
 
-                    <div class="skill-bar">
-                        <div class="skill-info">
-                            <span>Communication</span>
-                            <span>85%</span>
+                    <div class="skills-process">
+
+                        <div class="process-item">
+                            <span>01</span>
+                            <strong>Learn</strong>
+                            <p>Understand the fundamentals.</p>
                         </div>
-                        <div class="progress-bg">
-                            <div class="progress-fill" style="width: 85%;"></div>
+
+                        <div class="process-line"></div>
+
+                        <div class="process-item">
+                            <span>02</span>
+                            <strong>Build</strong>
+                            <p>Apply them in projects.</p>
                         </div>
+
+                        <div class="process-line"></div>
+
+                        <div class="process-item">
+                            <span>03</span>
+                            <strong>Improve</strong>
+                            <p>Fix, refine and keep learning.</p>
+                        </div>
+
                     </div>
+
                 </div>
 
             </div>
         </section>
-        <script>
-    const menuBtn = document.getElementById('mobile-menu-btn');
-    const navLinks = document.getElementById('nav-links');
 
-    menuBtn.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
-    });
-    </script>
     </main>
 
+
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Padmapriya K. All Rights Reserved.</p>
+
+            <div class="footer-content">
+                <div>
+                    <a href="index.html" class="logo">Padmapriya<span>.</span></a>
+                    <p>Computer Science Engineering Student &amp; Software Developer.</p>
+                </div>
+
+                <p>&copy; 2026 Padmapriya K. All Rights Reserved.</p>
+            </div>
+
         </div>
     </footer>
+
+
+    <!-- Shared JavaScript -->
+    <script src="js/script.js"></script>
+
 </body>
 
 </html>

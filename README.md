@@ -1,20 +1,36 @@
 # Personal Portfolio Website
 
-A static personal portfolio website built with clean HTML5 and CSS3.
+A responsive personal portfolio website built to showcase my skills, projects, education, and contact information.
+
+## Technologies
+
+- HTML5
+- CSS3
+- JavaScript
+- Git & GitHub
 
 ## Features
-- **Responsive Design**: Mobile-first approach using Flexbox and CSS Grid.
-- **Theme**: Blue and Gray professional color scheme.
-- **No Dependencies**: Pure HTML and CSS. No JavaScript, no frameworks.
-- **PWA Ready**: Includes manifest.json and offline fallback.
 
-## Structure
-- `index.html`: Home/Landing page.
-- `about.html`: Biography and Education.
-- `skills.html`: Technical proficiency visualization.
-- `projects.html`: Portfolio showcase.
-- `contact.html`: Contact information and form.
-- `css/style.css`: Main stylesheet containing all variables and component styles.
+- Responsive design
+- Multi-page portfolio
+- Mobile navigation
+- Skills and projects showcase
+- Contact section
 
-## Usage
-Simply open `index.html` in any modern web browser.
+## Pages
+
+- `index.html` – Home
+- `about.html` – About & Education
+- `skills.html` – Skills
+- `projects.html` – Projects
+- `contact.html` – Contact
+
+## Run Locally
+
+Clone the repository and open `index.html` in a browser, or use VS Code Live Server.
+
+## Author
+
+**Padmapriya K**
+
+[LinkedIn](https://www.linkedin.com/in/padmapriyakartigayen/) | [GitHub](https://github.com/padmapriyak-0506)

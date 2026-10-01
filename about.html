@@ -1,75 +1,462 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="About Me - Personal Portfolio">
-    <title>About - Portfolio</title>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Learn more about Padmapriya K, a Computer Science Engineering student and aspiring software developer.">
+
+    <meta name="author" content="Padmapriya K">
+
+    <title>About | Padmapriya K</title>
+
     <link rel="stylesheet" href="css/style.css">
+
     <link rel="manifest" href="manifest.json">
+
+    <meta name="theme-color" content="#0f172a">
+
 </head>
+
+
 <body>
+
+
+    <!-- ================= HEADER ================= -->
+
     <header class="header">
+
         <div class="container navbar">
-            <a href="index.html" class="logo">Portfolio.io</a>
-            <button class="mobile-menu-btn" id="mobile-menu-btn">
+
+            <a href="index.html" class="logo">
+                Padmapriya<span>.</span>
+            </a>
+
+
+            <button
+                class="mobile-menu-btn"
+                id="mobile-menu-btn"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+
                 <span></span>
                 <span></span>
                 <span></span>
+
             </button>
+
+
             <nav class="nav-links" id="nav-links">
-                <a href="index.html" class="active">Home</a>
-                <a href="about.html">About</a>
-                <a href="skills.html">Skills</a>
-                <a href="projects.html">Projects</a>
-                <a href="contact.html">Contact</a>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="about.html" class="active">
+                    About
+                </a>
+
+                <a href="skills.html">
+                    Skills
+                </a>
+
+                <a href="projects.html">
+                    Projects
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
             </nav>
+
         </div>
+
     </header>
 
-    <main class="main-content">
-        <section class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-grid">
-                <div class="profile-img-container">
-                    <!-- Placeholder for profile image -->
-                     <img src="assets/images/WhatsApp Image 2026-01-20 at 9.20.04 PM.jpeg" alt="Padmapriya K" class="profile-img">
 
-                     
-                     <span class="profile-img-placeholder">IMG</span>
-                </div>
-                <div class="about-content">
-                    
-                    <p>I’m a Computer Science Engineering student passionate about building user-friendly web applications and improving my problem-solving skills. I work with HTML, CSS, and JavaScript, and I’m currently learning Java and Web-Development. </p>
-                    <br>
-                    <p>I enjoy turning ideas into real projects and continuously upgrading my skills to prepare for a career in software development.</p>
+    <!-- ================= MAIN ================= -->
 
-                    <h3 style="margin-top: 2rem;">Education</h3>
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-date">2023 - 2027</div>
-                            <h4>Bachelor of Computer Science Engineering</h4>
-                            <p>Manakula Vinayagar Institute of Technology</p>
-                        </div>
-                        
-                    </div>
-                </div>
+    <main>
+
+
+        <!-- ================= ABOUT HERO ================= -->
+
+        <section class="page-hero">
+
+            <div class="container">
+
+                <p class="section-label">
+                    About Me
+                </p>
+
+                <h1>
+                    A little about my journey
+                </h1>
+
+                <p>
+                    I'm a Computer Science Engineering student focused on
+                    developing practical software skills through continuous
+                    learning and hands-on projects.
+                </p>
+
             </div>
-        </section>
-        <script>
-    const menuBtn = document.getElementById('mobile-menu-btn');
-    const navLinks = document.getElementById('nav-links');
 
-    menuBtn.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
-    });
-    </script>
+        </section>
+
+
+        <!-- ================= ABOUT CONTENT ================= -->
+
+        <section class="about-section">
+
+            <div class="container">
+
+                <div class="about-grid">
+
+
+                    <!-- PROFILE -->
+
+                    <div class="profile-column">
+
+                        <div class="profile-card">
+
+                            <div class="profile-img-container">
+
+                                <img
+                                    src="assets/images/PADMAPRIYA.jpg"
+                                    alt="Portrait of Padmapriya K"
+                                    class="profile-img">
+
+                            </div>
+
+
+                            <h2>
+                                Padmapriya K
+                            </h2>
+
+                            <p class="profile-role">
+                                Computer Science Engineering Student
+                            </p>
+
+
+                            <div class="profile-status">
+
+                                <span class="status-dot"></span>
+
+                                Open to internship opportunities
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ABOUT TEXT -->
+
+                    <div class="about-content">
+
+                        <p class="section-label">
+                            My Story
+                        </p>
+
+                        <h2>
+                            Learning by building
+                        </h2>
+
+
+                        <p>
+                            I'm a Computer Science Engineering student
+                            interested in software development and
+                            technology. I enjoy taking an idea, breaking
+                            it down into smaller problems, and turning it
+                            into a working application.
+                        </p>
+
+
+                        <p>
+                            My current learning journey focuses on Java,
+                            JavaScript, web development, databases, and
+                            problem-solving. I am particularly interested
+                            in understanding how different parts of a
+                            software application work together rather than
+                            simply building interfaces.
+                        </p>
+
+
+                        <p>
+                            I believe the best way to improve is to build,
+                            make mistakes, understand what went wrong,
+                            and try again. My portfolio reflects that
+                            approach through projects that I build while
+                            learning new technologies.
+                        </p>
+
+
+                        <!-- CURRENT FOCUS -->
+
+                        <div class="focus-box">
+
+                            <h3>
+                                What I'm currently focusing on
+                            </h3>
+
+                            <ul>
+
+                                <li>
+                                    Strengthening Java fundamentals
+                                </li>
+
+                                <li>
+                                    Improving problem-solving and DSA
+                                </li>
+
+                                <li>
+                                    Building responsive web applications
+                                </li>
+
+
+                                <li>
+                                    Building projects that solve practical problems
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+
+        <section class="education-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        Education
+                    </p>
+
+                    <h2>
+                        My academic journey
+                    </h2>
+
+                </div>
+
+
+                <div class="timeline">
+
+
+                    <!-- DEGREE -->
+
+                    <article class="timeline-item">
+
+                        <div class="timeline-marker">
+                            01
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <span class="timeline-date">
+                                2023 — 2027
+                            </span>
+
+                            <h3>
+                                Bachelor of Technology in Computer Science and Engineering
+                            </h3>
+
+                            <h4>
+                                Manakula Vinayagar Institute of Technology
+                            </h4>
+
+                            <p>
+                                Currently pursuing my undergraduate degree
+                                in Computer Science Engineering, with a
+                                focus on programming, databases, computer
+                                networks, software development, and
+                                problem-solving.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- SCHOOL -->
+
+                    <article class="timeline-item">
+
+                        <div class="timeline-marker">
+                            02
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <span class="timeline-date">
+                                2022 — 2023
+                            </span>
+
+                            <h3>
+                                Higher Secondary Education
+                            </h3>
+
+                            <h4>
+                                St. Joseph of Cluny Higher Secondary School
+                            </h4>
+
+                            <p>
+                                Completed higher secondary education before
+                                beginning my undergraduate studies in
+                                Computer Science Engineering.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PERSONAL APPROACH ================= -->
+
+        <section class="approach-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        My Approach
+                    </p>
+
+                    <h2>
+                        How I learn and build
+                    </h2>
+
+                </div>
+
+
+                <div class="approach-grid">
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            01
+                        </div>
+
+                        <h3>
+                            Understand
+                        </h3>
+
+                        <p>
+                            I start by understanding the problem and the
+                            fundamentals behind the technology instead of
+                            immediately jumping into implementation.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            02
+                        </div>
+
+                        <h3>
+                            Build
+                        </h3>
+
+                        <p>
+                            I learn faster when I apply concepts to a
+                            practical project and see how they work in
+                            a real application.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            03
+                        </div>
+
+                        <h3>
+                            Improve
+                        </h3>
+
+                        <p>
+                            After building something, I look for ways to
+                            improve the code, user experience, performance,
+                            and overall structure.
+                        </p>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
     </main>
 
+
+    <!-- ================= FOOTER ================= -->
+
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Padmapriya K. All Rights Reserved.</p>
+
+        <div class="container footer-content">
+
+            <p>
+                © 2026 Padmapriya K. All Rights Reserved.
+            </p>
+
+            <div class="footer-links">
+
+                <a href="projects.html">
+                    Projects
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </div>
+
         </div>
+
     </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="js/script.js"></script>
+
 </body>
+
 </html>
+
